@@ -1,0 +1,101 @@
+*{margin: 0;
+padding: 0;
+}
+
+.form{
+    width: 550px;
+    height: 580px;
+    background: linear-gradient(to top,rgba(85, 86, 104, 0.8)50%,rgba(85, 86, 104, 0.8)50%);
+    position: absolute;
+    top: 76px;
+    left: 170px;
+    border: groove #f3a20a;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    color: #050313;
+    font-size: 22px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: #f3a20a;
+    border-bottom: 1px ridge #4622e6;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #f3f3f7;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Georgia;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #3330e7;
+    font-family: Georgia;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: #f3a20a;
+    border: groove;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: grab;
+    color: #3330e7;
+}
+.content .btn a{
+    text-decoration: none;
+    color: #050313;
+    transition: .4s ease;
+    font-weight: bolder;
+}
+.btn:hover{
+    background: #e9e8ec;
+}
+.form .link{
+    font-family: 'Times New Roman';
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+form link a{
+    text-decoration: none;
+    color: #3330e7;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    color: #e9dcdc;font-size: 18px;
+    padding-left: 18px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon{
+    color: #ebe1e1;
+    background-color: #000;
+    font-size: 90px;
+}
+.icons ion-icon:hover{
+   background-color: #e99e13;
+   color: #f3a20a;
+   transition-duration: 0.8s ease;
+   transition: all;
+
+}

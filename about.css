@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+   width: 100%; 
+   background-color: #fee92e;
+   background-size: cover;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    
+}
+.icon{
+    width: 220px;
+    float: left;
+    height: 170px;
+}
+.logo{
+    color: black;
+    font-size: 55px;
+    font-family:  Georgia;
+    padding-left: 25px;
+    float: left;
+    padding-top: 15px;
+
+}
+.menu{
+    width: 400px;
+    float: right;
+    height: 70px;
+}
+.H1{
+    color: black;
+    font-size: 46px;
+    font-family: Georgia;
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration: underline;
+    position: absolute;
+    top: 97px;
+    left: 590px;
+    text-shadow: #fee92e;
+}
+.paragraph{
+    position: absolute;
+    top: 190px;
+    left: 56px;
+    width: fit-content;
+}
+.paragraph span{
+    display: block;
+    opacity: 0;
+    animation: reveal 0.8s forwards var(--d);
+}
+@keyframes reveal{
+ from{
+    transform: translateY(20px);
+ }
+ to{
+    opacity: 1;
+    transform: none;
+ }
+}
+.h2{
+    position: absolute;
+    top: 297px;
+    left: 260px;
+    font-size: 46px;
+    font-weight: bolder;
+    color: blue;
+}
+.par{
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.h3{
+    position: absolute;
+}
+.gallery1{
+    height: 10px;
+    width: 10%;
+    position: sticky;
+    top: 259px;
+    left: 990px;
+}
